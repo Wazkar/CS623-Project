@@ -9,7 +9,7 @@ def get_connection():
         port=5432,
         database="project",
         user="postgres",
-        password="password"   # replace only if needed
+        password="password"
     )
 
 
@@ -139,5 +139,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# in run transaction, uncomment commit and remove rollback entirely
